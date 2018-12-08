@@ -1,2 +1,5 @@
-tempCodeRunnerFile.py
+/.vscode/*
 .DS_Store
+.*.swp
+*.log
+tempCodeRunnerFile.py
