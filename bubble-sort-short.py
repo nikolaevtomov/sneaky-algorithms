@@ -3,7 +3,6 @@
 
 import random
 import time
-from copy import copy
 
 
 def shortBubbleSort(aList):
@@ -40,4 +39,11 @@ for i in range(1, 4001):
 
 
 print('shortBubbleSort()')
-shortBubbleSort(copy(randomList))
+shortBubbleSort(randomList)
+print('----------------')
+
+# print('randomList is now sorted', randomList)
+# print('----------------')
+
+print('TEST shortBubbleSort() with sorted list')
+shortBubbleSort(randomList)

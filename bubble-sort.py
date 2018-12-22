@@ -3,7 +3,6 @@
 
 import random
 import time
-from copy import copy
 
 
 def bubbleSort(aList):
@@ -35,4 +34,11 @@ for i in range(1, 4001):
 
 
 print('bubbleSort()')
-bubbleSort(copy(randomList))
+bubbleSort(randomList)
+print('----------------')
+
+# print('randomList is now sorted', randomList)
+# print('----------------')
+
+print('TEST bubbleSort() with sorted list')
+bubbleSort(randomList)
